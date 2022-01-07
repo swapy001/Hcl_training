@@ -1,6 +1,6 @@
 
 ---
-- name: Demo message
+- name: awx message print
   hosts: localhost
   tasks:
     - name: Printing message

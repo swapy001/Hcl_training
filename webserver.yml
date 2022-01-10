@@ -1,0 +1,9 @@
+ ---
+  - name: play to setup web server
+    hosts: servera.lab.example.com
+    tasks:
+    - name: latest httpd version installed
+      yum:
+        name: httpd
+        state: latest
+  ...

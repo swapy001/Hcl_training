@@ -1,6 +1,6 @@
  ---
   - name: play to setup web server
-    hosts: servera.lab.example.com
+    hosts: localhost
     tasks:
     - name: latest httpd version installed
       yum:

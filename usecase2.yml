@@ -1,0 +1,5 @@
+tasks:
+    - name: first task
+      service: name=httpd enabled=true
+    - name: second task
+      service: name=sshd enabled=true

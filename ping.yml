@@ -1,0 +1,6 @@
+---
+- hosts: all
+  name: pinging machine
+  task:
+   - ping:
+   

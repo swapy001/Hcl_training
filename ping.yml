@@ -1,6 +1,5 @@
 ---
-- hosts: all
-  name: pinging machine
+- hosts: localhost
   task:
    - ping:
    
